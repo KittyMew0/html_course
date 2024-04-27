@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.site {
+    padding-bottom: 40px;
+}
+
+.header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.center {
+    margin-top: 50px;
+    margin-bottom: 150px;   
+}
+
+.honeclass {
+    margin-bottom: 10px;
+}
+
+.pclass {
+    margin-bottom: 20px;
+}
+
+.buttons {
+    margin-top: 10px;
+}
