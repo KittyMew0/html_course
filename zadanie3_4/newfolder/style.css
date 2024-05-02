@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.site {
+    padding-bottom: 40px;
+}
+
+.header {
+    padding-top: 30px;
+    padding-bottom: 30px; 
+}
+
+.left-side {
+    display: inline;
+}
+
+.specialp {
+    display: inline;
+}
+
+.right-side {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+}
+
+.img-logo {
+    width: 35px;
+    height: 40px;
+}
+
+.header_link {
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
+
+.center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+.content {
+    width: 50%;
+}
+
+.honeclass {
+    margin-bottom: 10px;
+    font-family: Gilroy-Bold;
+    font-size: 60px;
+}
+
+.pclass {
+    margin-bottom: 20px;
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+}
+
+.buttons {
+    display: flex;
+    gap: 30px;
+} 
+
+.button {
+    width: 140px;
+    height: 50px;
+    border-radius: 50px;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+    background: rgb(242, 88, 34);
+    color: rgb(255, 255, 255);
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pseudobutton {
+    width: 90px; 
+    height: 19px; 
+    left: -354px; 
+    right: 354px; 
+    top: 96px; 
+    bottom: -96px; 
+
+    background: transparent;
+    color: rgb(170, 170, 170);
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: -1px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.img-mainpic {
+    width: 50%;
+    height: auto;
+}
+
+.partners {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
