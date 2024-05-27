@@ -1,49 +1,70 @@
 .header_links {
     display: flex;
-    /* justify-content: center;
-    align-items: center; */
+    background-color: black;
 }
 
 .header_left {
-    /* width: 111px;
-    height: 38px; */
-    /* Top: 18px;
-    Left: 231px; */
+    width: 111px;
+    height: 38px;
+    Top: 18px;
+    Left: 231px;
 
-    justify-content: flex-start;
-
+    display: flex;
+    justify-content: space-between;
+    float: left;
+    align-items: left; 
+    transform: translate(150px,0);
 }
 
 .header_right {
-    /* Width: 159px;
-    Height: 29px; */
-    /* Top: 26px;
-    Left: 1201px; */
+    Width: 159px;
+    Height: 29px;
+    Top: 26px;
+    Left: 1201px;
 
-    justify-content: flex-end;
+    display: flex;
+    justify-content: space-between;
+    float: right;
+    align-items: right;
+    transform: translate(800px,0);
 }
 
 .main_part {
-
+    background-color: rgb(241, 228, 230)
 }
 
 .main_image {
     Width: 800.58px;
     Height: 764px;
+    display: inline;
 }
 
+.rec_text_decor {
+    display: flex;
+    justify-content: center;
+    display: inline;
+    margin-left: 0px;
+}
 
 .main_text_h1 {
     Font: Lato;
     Font-weight: 700;
     Font-size: 32px;
-    /* Row-height: 1px; */
     letter-spacing: 0%;
-    /* Align: Align-left; */
+
+    display: flex; 
+    justify-content: center;
+    align-items: right;
+    display: inline;
+    margin-left: 0px;
 }
 
 .main_text_h2 {
-
+    display: flex; 
+    justify-content: center; 
+    align-items: right;
+    display: inline;
+    margin-left: 0px;
 }
 
 .colored_part_h2, .price_p, .slr_colored, .flr_colored {
@@ -55,23 +76,30 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    Width: 1140px;
+    Height: 470px;
 }
 
 .first_line_rec {
-    /* Width: 360px;
+    Width: 360px;
     Height: 260px;
     Top: 904px;
-    Left: 230px; */
+    Left: 230px;
 }
 
 .second_line {
     display: flex;
     justify-content: center;
     align-items: center;
+    Width: 1140px;
+    Height: 470px;
 }
 
 .second_line_rec {
-
+    Width: 1140px;
+    Height: 180px;
+    Top: 1194px;
+    Left: 230px;
 }
 
 .fetured_items {
@@ -99,5 +127,9 @@
 }
 
 @media (max-width: 767px) {
+    
+}
+
+@media (max-width: 320px) {
     
 }
